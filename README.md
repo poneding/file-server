@@ -15,3 +15,5 @@ FS_PATH=/path/to/files file-server
 ```
 
 `FS_PATH` is the environment variable that specifies the directory to serve files from.
+
+Then, open your browser and navigate to `http://localhost:8080/` to view the files.
