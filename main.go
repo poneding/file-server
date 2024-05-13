@@ -9,6 +9,10 @@ import (
 var path = "."
 
 func init() {
+	if os.Args[1] != "" {
+		path = os.Args[1]
+	}
+
 	if v := os.Getenv("FS_PATH"); v != "" {
 		path = v
 	}
